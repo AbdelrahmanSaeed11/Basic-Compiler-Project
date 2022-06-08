@@ -1,0 +1,20 @@
+import string
+DIGITS     = '1234567890'
+INT		   = 'INT'
+FLOAT      = 'FLOAT'
+PLUS       = 'PLUS' 
+MINUS      = 'MINUS'
+MUL        = 'MUL'
+DIV        = 'DIV'
+LPAREN     = 'LPAREN'
+RPAREN     = 'RPAREN'
+EOF        = 'EOF'
+POW        = 'POW'
+AND        = 'AND'
+OR         = 'OR'
+IDENTIFIER = 'IDENTIFIER'
+KEYWORD    = 'KEYWORD'
+EQUAL      = 'EQUAL' 
+LETTERS    = string.ascii_letters
+LETTERS_DIGITS = LETTERS + DIGITS
+KEYWORDS   = 'say'
